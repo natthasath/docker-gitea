@@ -8,7 +8,7 @@ Gitea is a lightweight, self-hosted Git service offering repository hosting, iss
 
 ### 🏆 Run
 
-- [http://localhost:2283/](http://localhost:2283/) username : `admin` password : `admin`
+- [http://localhost:3000/](http://localhost:3000/) username : `admin` password : `admin`
 
 ```shell
 docker-compose up -d
