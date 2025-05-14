@@ -28,8 +28,8 @@ services:
     environment:
       - USER_UID=${GITEA_USER_UID}
       - USER_GID=${GITEA_USER_GID}
-      - GITEA__database__DB_TYPE=postgres
-      - GITEA__database__HOST=postgres:5432
+      - GITEA__database__DB_TYPE=${GITEA_DATABASE_TYPE}
+      - GITEA__database__HOST=${GITEA_DATABASE_HOST}
       - GITEA__database__NAME=${POSTGRES_DATABASE}
       - GITEA__database__USER=${POSTGRES_USER}
       - GITEA__database__PASSWD=${POSTGRES_ROOT_PASSWORD}
